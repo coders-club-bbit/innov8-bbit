@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 import { Button } from "@/components/ui/moving-borders";
@@ -5,7 +6,7 @@ import { workExperience } from "@/data";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-20">
+    <section id="organizers" className="py-20">
       <h1 className="heading">
         Our <span className="text-purple">Organizers</span>
       </h1>
@@ -15,8 +16,15 @@ export const Experience = () => {
           <Button
             key={experience.id}
             borderRadius="1.75rem"
-            className="flex-1 border-neutral-200 text-white dark:border-slate-800"
+            className="w-full border-neutral-200 text-white dark:border-slate-800 flex-1"
             duration={Math.floor(Math.random() * 10000 + 10000)}
+            // Ensure instagram exists and is a string
+            onClick={() => {
+              if (experience.instagram) {
+                window.open(experience.instagram, "_blank", "noopener,noreferrer");
+              }
+            }}
+            style={{ textDecoration: "none" }}
           >
             <div className="flex flex-col gap-2 p-3 py-6 md:p-5 lg:flex-row lg:items-center lg:p-10">
               <Image
@@ -39,6 +47,7 @@ export const Experience = () => {
           </Button>
         ))}
       </div>
+      
     </section>
   );
 };

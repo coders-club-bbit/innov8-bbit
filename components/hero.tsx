@@ -27,7 +27,7 @@ export const Hero = () => {
 
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
-          <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
+          <h2 className="max-w-18 text-center text-xs uppercase tracking-widest text-blue-100 lg:text-2xl md:text-lg">
             36 Hours Hackathon
           </h2>
 
@@ -40,9 +40,18 @@ export const Hero = () => {
             Organized by Coders' Club<br></br>BUDGE BUDGE INSTITUTE OF TECHNOLOGY
           </p>
 
-          <Link href="https://forms.gle/T6727E5PT9TyAjF37" target="new" className="md:mt-10">
+          <Link href="https://forms.gle/NFx2MAqjcoD2gJLb6" target="new" className="md:mt-10">
             <MagicButton
               title="Register Now"
+              icon={<FaLocationArrow />}
+              position="right"
+              asChild
+            />
+          </Link>
+
+          <Link href="https://innov8-bbit.web.app/" target="new" className="md:mt-5">
+            <MagicButton
+              title="Past Hackathon Report"
               icon={<FaLocationArrow />}
               position="right"
               asChild
