@@ -207,6 +207,38 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
     instagram: "https://www.instagram.com/innov8.bbit",
   },
+  {
+    id: 5,
+    title: "Rajashree Das",
+    desc: "Fareness and Anti-Ragging head of BBIT and the Hackathon",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp5.svg",
+    instagram: "https://www.instagram.com/innov8.bbit",
+  },
+  {
+    id: 6,
+    title: "Supratim Ghosh",
+    desc: "Security and & Safety Head of the Hackathon and the Coders' Club",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp6.svg",
+    instagram: "https://www.instagram.com/innov8.bbit",
+  },
+  {
+    id: 7,
+    title: "Tirtha Sarkar Khan",
+    desc: "Volunteer Representative of the EDC Cell and the Hackathon",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp7.svg",
+    instagram: "https://www.instagram.com/innov8.bbit",
+  },
+  {
+    id: 7,
+    title: "Rajib Karmakar",
+    desc: "Designer Lead of the Coders' Club and the Hackathon",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp8.svg",
+    instagram: "https://www.instagram.com/innov8.bbit",
+  },
 ] as const;
 
 export const socialMedia = [

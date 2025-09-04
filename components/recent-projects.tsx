@@ -72,6 +72,24 @@ export const RecentProjects = () => {
 
                   
                 </div> */}
+
+                <div className="mb-3 mt-7 flex items-center justify-between">
+                  <div className="flex items-center justify-center">
+                      <Link
+                        href={sourceCode}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="flex text-sm text-purple md:text-xs lg:text-xl"
+                      >
+                        <del>
+                        Register Now 
+                        </del>
+                          (Registeration starts from 6th Sept.)
+                      </Link>
+
+                      <FaLocationArrow className="ms-3" color="#cbacf9" />
+                    </div>
+                </div>
               </PinContainer>
             </div>
           )
