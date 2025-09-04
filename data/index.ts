@@ -3,7 +3,6 @@ import { links } from "@/config";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Events", link: "#events" },
-  { name: "Associations", link: "#associations" },
   { name: "Organizers", link: "#organizers" },
   { name: "Schedule", link: "#schedule" },
   { name: "Contact", link: "#contact" },
