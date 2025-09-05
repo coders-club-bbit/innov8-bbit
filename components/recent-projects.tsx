@@ -84,7 +84,7 @@ export const RecentProjects = () => {
                         <del>
                         Register Now 
                         </del>
-                          (Registeration starts from 6th Sept.)
+                          (Registeration starts from 8th Sept.)
                       </Link>
 
                       <FaLocationArrow className="ms-3" color="#cbacf9" />

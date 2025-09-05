@@ -21,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Open to all skill levels - from beginners to coding veterans, join us for an inclusive 36-hour innovation marathon",
+    title: "Open to all skill levels - from beginners to coding veterans, join us for an inclusive 36-hour innovation marathon ",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
