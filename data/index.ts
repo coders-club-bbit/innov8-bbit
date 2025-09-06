@@ -222,22 +222,6 @@ export const workExperience = [
     thumbnail: "/exp6.svg",
     instagram: "https://www.instagram.com/innov8.bbit",
   },
-  {
-    id: 7,
-    title: "Tirtha Sarkar Khan",
-    desc: "Volunteer Representative of the EDC Cell and the Hackathon",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp7.svg",
-    instagram: "https://www.instagram.com/innov8.bbit",
-  },
-  {
-    id: 7,
-    title: "Rajib Karmakar",
-    desc: "Designer Lead of the Coders' Club and the Hackathon",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp8.svg",
-    instagram: "https://www.instagram.com/innov8.bbit",
-  },
 ] as const;
 
 export const socialMedia = [
