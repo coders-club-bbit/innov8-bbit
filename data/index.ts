@@ -198,30 +198,6 @@ export const workExperience = [
     thumbnail: "/exp3.svg",
     instagram: "https://www.instagram.com/innov8.bbit",
   },
-  {
-    id: 4,
-    title: "Tanisha Seal",
-    desc: "Anti-Ragging Head and Food and Catering Head of the Hackathon",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp4.svg",
-    instagram: "https://www.instagram.com/innov8.bbit",
-  },
-  {
-    id: 5,
-    title: "Rajashree Das",
-    desc: "Fareness and Anti-Ragging head of BBIT and the Hackathon",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp5.svg",
-    instagram: "https://www.instagram.com/innov8.bbit",
-  },
-  {
-    id: 6,
-    title: "Supratim Ghosh",
-    desc: "Security and & Safety Head of the Hackathon and the Coders' Club",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp6.svg",
-    instagram: "https://www.instagram.com/innov8.bbit",
-  },
 ] as const;
 
 export const socialMedia = [
@@ -246,3 +222,4 @@ export const techStack = {
   stack1: ["React.js", "Next.js", "Typescript"],
   stack2: ["Vue.js", "AWS", "MongoDB"],
 } as const;
+
